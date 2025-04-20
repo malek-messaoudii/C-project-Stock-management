@@ -19,11 +19,17 @@ A comprehensive stock management system implemented in C, featuring category man
 
 ## Code Structure
  gestion_stock/
+ 
 ├── src/
+
 │ ├── main.c # Main program
+
 │ └── bib.h  # Declarations and functions
+
 ├── data/
+
 │ └── trace.txt # Sales log file
+
 └── README.md
 
 
