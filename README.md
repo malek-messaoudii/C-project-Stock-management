@@ -1,41 +1,43 @@
-# Gestion de Stock - Système de Suivi des Produits
+# Stock Management System - Product Tracking
 
-Un système complet de gestion de stock implémenté en C, avec gestion des catégories, types, produits et statistiques de vente.
+A comprehensive stock management system implemented in C, featuring category management, product types, inventory items, and sales statistics.
 
-## 📋 Fonctionnalités
+## Key Features
 
-- **Gestion hiérarchique** :
-  - Catégories → Types → Produits
-- **Opérations CRUD** :
-  - Ajout/Suppression de catégories, types et produits
-- **Système de vente intelligent** :
-  - Vente des produits par date d'expiration (FIFO)
-- **Statistiques** :
-  - Ventes par mois/année
-  - Analyse par catégorie
-- **Persistance** :
-  - Journalisation des transactions dans `trace.txt`
+- **Hierarchical Management** :
+  - Categories → Types → Products
+- **CRUD Operations** :
+  - Add/Remove categories, types and products
+- **Smart Sales System** :
+  - Product sales by expiration date (FIFO)
+- **Statistics** :
+  - Monthly/annual sales
+  - Category analysis
+- **Data Persistence** :
+  - Transaction logging in `trace.txt`
 
-## 🛠 Structure du Code
+
+## Code Structure
  gestion_stock/
 ├── src/
-│ ├── main.c # Programme principal
-│ └── bib.h # Déclarations et fonctions
+│ ├── main.c # Main program
+│ └── bib.h  # Declarations and functions
 ├── data/
-│ └── trace.txt # Fichier de logs des ventes
+│ └── trace.txt # Sales log file
 └── README.md
 
 
-## 🔧 Installation
+## Installation
 
-### Prérequis
-- Compilateur C (gcc recommandé)
+### Prerequisites
+
+- C compiler (gcc recommended)
 
 ### Compilation
 ```
 gcc -o gestion_stock src/main.c
 ```
-### Exécution 
+### Execution
 ```
 gestion_stock.exe
 ```
